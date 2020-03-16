@@ -1,0 +1,22 @@
+body {
+	margin: 50px;
+}
+
+section {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#navbar {
+	position: fixed;
+}
+
+/* user story #14 #15 */
+@media screen and (max-width: 900px) {
+	#navbar {
+		float: left;
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+}
